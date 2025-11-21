@@ -82,12 +82,3 @@ POST http://localhost:8080/api/junie/ask
 - Lombok  
 - Maven  
 
-## Future Enhancements
-- JWT Authentication  
-- MySQL chat history  
-- Swagger UI  
-- React Frontend  
-- Exception Handling & Logging  
-
-## License
-MIT License
