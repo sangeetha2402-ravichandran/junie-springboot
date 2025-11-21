@@ -12,17 +12,8 @@ This project is ideal for interviews, portfolio projects, GitHub showcase, or le
 - Ready for deployment + Docker support
 
 ## Project Structure
-junie-springboot-demo/
- ├── pom.xml
- ├── src/main/java/com/junie/demo/
- │       ├── JunieDemoApplication.java
- │       ├── controller/JunieController.java
- │       ├── service/JunieService.java
- │       └── dto/
- │           ├── JunieRequest.java
- │           └── JunieResponse.java
- └── src/main/resources/
-         └── application.properties
+<img width="853" height="381" alt="image" src="https://github.com/user-attachments/assets/7a05e969-ee4a-4ece-9f8f-71c3a699d721" />
+
 
 ## Prerequisites
 - Java 17
