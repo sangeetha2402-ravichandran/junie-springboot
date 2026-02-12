@@ -1,15 +1,44 @@
-# Junie Spring Boot Demo
+# 🚀 Spring Boot 3 + OpenAI Integration Demo
 
-A simple Spring Boot application that connects to Junie (OpenAI) using WebClient and exposes a REST API.  
-This project is ideal for interviews, portfolio projects, GitHub showcase, or learning API integration.
+A production-ready **Spring Boot 3 (Java 17)** application that integrates with the latest **OpenAI Responses API** using `WebClient` and exposes a clean REST endpoint.
 
-## Features
-- Spring Boot 3 (Java 17)
-- REST API endpoint: POST /api/junie/ask
-- Calls Junie/OpenAI using WebClient
-- Clean DTO structure
-- Easy to configure using application.properties
-- Ready for deployment + Docker support
+This project demonstrates real-world AI service integration within a scalable backend architecture — ideal for interviews, portfolio showcase, and enterprise discussions.
+
+---
+
+## 📌 Project Overview
+
+This application:
+
+- Accepts a prompt via REST API  
+- Calls OpenAI's latest `/v1/responses` endpoint  
+- Returns structured AI-generated output  
+- Follows clean layered architecture principles  
+
+It showcases secure API handling, reactive programming, and modern backend design.
+
+---
+
+## 🛠 Tech Stack
+
+- Java 17  
+- Spring Boot 3  
+- Spring WebFlux (WebClient)  
+- Maven  
+- Lombok  
+- Docker (Optional)
+
+---
+
+## ⚙️ Features
+
+✔ REST API endpoint: `POST /api/ai/ask`  
+✔ OpenAI Responses API integration  
+✔ Reactive WebClient configuration  
+✔ Clean DTO structure  
+✔ Externalized configuration  
+✔ Error handling & response mapping  
+✔ Docker-ready  
 
 ## Project Structure
 <img width="853" height="381" alt="image" src="https://github.com/user-attachments/assets/7a05e969-ee4a-4ece-9f8f-71c3a699d721" />
@@ -75,10 +104,16 @@ POST http://localhost:8080/api/junie/ask
 |--------|----------|-------------|
 | POST | /api/junie/ask | Sends prompt to Junie |
 
-## Tech Used
-- Spring Boot 3  
-- Java 17  
-- WebClient  
-- Lombok  
-- Maven  
+## 🧠 What This Project Demonstrates
+
+AI API Integration in Enterprise Java
+
+Reactive HTTP Client usage
+
+Secure configuration handling
+
+Clean layered architecture
+
+RESTful API design best practices
+
 
